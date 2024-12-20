@@ -1,0 +1,9 @@
+syntax = "proto3"; // 这个必须放第一行。
+
+package test;
+
+message Test{
+	optional uint32 id=1;
+	repeated uint32 vec=2;
+	optional string str=3;
+};
